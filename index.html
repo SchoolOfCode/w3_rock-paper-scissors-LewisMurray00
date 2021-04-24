@@ -2,29 +2,35 @@
 <html lang="en-GB">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Rock, Paper, Scissors</title>
     <meta name ="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <header>
       <h1 class="game-title">Rock,Paper or Scissors?</h1>
-      <p>
-        Simply choose Rock, Paper or Scissors and try to beat your
-        opponent, in this case, the computer. Remember that:
-        <br> Rock beats Scissors
+      <p style="font-weight: bold;">
+        Try to beat the computer,
+        <br>Remember that:
+      </p>
+      <p class="rules">
+         Rock beats Scissors
         <br>Paper beats Rock
         <br>Scissors beats Paper
       </p>
     </header>
+    <form>
+      <label for="uName">Username:</label>
+      <input type="text" id="uName" name="uName">
+    </form>
     <section>
       <div>
         <ul class="computerGuess"></ul>
-        <p>Pick Rock,Paper or Scissors</p>
         <button class="rockButton">Rock</button>
         <button class="paperButton">Paper</button>
         <button class="scissorsButton">Scissors</button>
         <p class="guessResult"></p>
+        <p class="scores"></p>
       </div>
     </section>
     <script src="main.js"></script>
