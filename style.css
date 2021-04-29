@@ -1,0 +1,66 @@
+*{
+    text-align: center;
+}
+
+body {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.game-title{
+    text-decoration: underline;
+}
+
+.rules{
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.rockButton{
+    font-size: 30px;
+    border: black;
+    color: black;
+    padding:15px 32px;
+    text-align: center;
+    display:inline-block;
+    transition: 100ms;
+}
+
+.rockButton:hover{
+    transform: scale(1.2);
+}
+
+.paperButton{
+    font-size: 30px;
+    border: black;
+    color: black;
+    padding:15px 32px;
+    text-align: center;
+    display:inline-block;
+    transition: 100ms;
+}
+
+.paperButton:hover{
+    transform:scale(1.2);
+}
+
+.scissorsButton{
+    font-size: 30px;
+    border: 1px black;
+    color: black;
+    padding:15px 32px;
+    text-align: center;
+    display:inline-block;
+    transition: 100ms;
+}
+
+.scissorsButton:hover{
+    transform:scale(1.2);
+}
+
+.guessResult{
+    font-size:large;
+    
+}
